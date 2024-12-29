@@ -1,0 +1,131 @@
+body {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: black;
+}
+h1{
+    color: azure;
+}
+
+
+.titlebar {
+    padding: 20px;
+    box-shadow: 2px -2px 20px white;
+    color: azure;
+    font-family: 'Trebuchet MS';
+    display: flex; 
+    background-color: rgb(25, 25, 25);
+    border-radius: 50px; 
+    animation: uptodown 1s ease-in-out;
+   
+}
+
+
+
+.nav {
+    font-size: 20px;  
+}
+
+a {
+    font-size: small;
+    color: azure;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+.profilebox {
+    margin-top: 20px;
+    height: 200px; 
+    width: 100%; /* Ensures profilebox takes full width */
+}
+
+.profilebox img { 
+    height: 200px;
+    width: 200px; 
+    border-radius: 20%;
+    box-shadow: 2px 2px 20px white;
+    animation: fadein 2s ease-in-out, zoomin 2s ease-in-out;
+}
+
+
+
+
+.name{
+    margin-top: -3%;
+    font-size: 50px;
+    text-align: center;
+    animation: fadein 2s ease-in-out, moveup 2s ease;
+}
+
+
+.contact{    
+    margin-top: 20px;
+    text-shadow: 2px -2px 20px white;
+    width: 100px;
+    padding: 20px;
+    color: azure;
+    font-family: 'Trebuchet MS';
+    display: flex; 
+    background-color: rgb(25, 25, 25);
+    border-radius: 50px; 
+    text-align: center;
+    cursor: pointer;
+    animation: fadein 3s ease-in-out, moveup 3s ease , blinker 1.5s infinite ;
+}
+
+.shortline{
+    margin-top: 30px;
+    color: azure;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    cursor: pointer;
+    animation: fadein 3s ease-in-out, moveup 3s ease ;
+}
+
+
+
+
+#books{
+    display: block;
+}
+
+.bookspic{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    
+   box-shadow: 2px 2px 20px white;
+    animation: righttoleft 3s ease-in-out;
+    transform: rotate(-10deg);
+}
+
+#books{
+    display: flex;
+    margin-bottom: 50px;
+   
+}
+
+.bookdesc{
+    margin-left: 20px;
+    color: azure;
+    font-family: 'Trebuchet MS';
+    animation: fadein 3s ease-in-out, moveup 3s ease ;
+}
+
+
+.contactbox{
+    color: azure;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social img {
+    border-radius: 50%;
+    margin-left: 20px;
+    animation: fadein 3s ease-in-out, moveup 3s ease ;
+}

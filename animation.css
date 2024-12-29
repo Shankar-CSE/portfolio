@@ -1,0 +1,59 @@
+@keyframes uptodown {
+    from {
+        transform: translateY(-20px) translateX(-20px);
+    }
+    to {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+@keyframes zoomin {
+    from {
+        transform: scale(0.5); /* Corrected from 'scale' to 'transform: scale' */
+    }
+    to {
+        transform: scale(1); /* Corrected from 'scale' to 'transform: scale' */
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes moveup {
+    from {
+        transform: translateY(300px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes blinker {
+    0%{
+        box-shadow: 2px -2px 20px white; 
+    }
+    50%{
+        box-shadow: 0px 0px 0px white;
+    }
+    100%{
+        box-shadow: 2px -2px 20px white;
+    }
+}
+
+
+@keyframes righttoleft {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(0) rotate(-10deg);
+       
+    }
+}
